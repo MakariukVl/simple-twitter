@@ -1,6 +1,6 @@
 #Simple Twitter
 ###Dev Commands
-You can use this CMD/SHELL commands in development:
+You can use this CMD/SHELL commands in project folder:
 * **AFTER CLONING**:  
   **yarn install** - install all dependencies
 * **DEVELOPMENT**:
