@@ -1,0 +1,28 @@
+$fontSans: Verdana, Geneva, Tahoma, sans-serif;
+$icon-color: yellow;
+
+#root {
+  position: relative;
+}
+
+body {
+  font-family: $fontSans;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.liked {
+  background-color: #f5ec9b !important;
+}
+
+.liked::before {
+  content: '\01F44D' !important;
+  color: $icon-color !important;
+}
+
+.disliked::before {
+  content: '\01F44E' !important;
+  color: $icon-color !important;
+}

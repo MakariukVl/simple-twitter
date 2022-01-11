@@ -1,0 +1,24 @@
+@import './mixins.scss';
+
+.section-liked {
+  & {
+    @include alignCenter;
+  }
+  &__button {
+    border-radius: 5px;
+  }
+  &__tweets-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  &__tweet {
+    text-align: end;
+    background-color: ghostwhite;
+    border: 1px solid black;
+  }
+  &__tweet-text {
+    text-align: start;
+    cursor: pointer;
+    margin: 0.5em;
+  }
+}

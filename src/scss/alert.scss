@@ -1,0 +1,12 @@
+.alert {
+  & {
+    position: absolute;
+    padding: 10px 30px;
+    width: 250px;
+    background-color: silver;
+    color: white;
+  }
+  &__text {
+    font-size: large;
+  }
+}

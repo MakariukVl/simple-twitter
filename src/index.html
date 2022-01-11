@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Homework 10 - BOM</title>
-  <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<title>Homework 10</title>
 </head>
 <body>
 	<div id="root">
-		<div id="alertMessage" class="hidden"><span id="alertMessageText"></span></div>
+		<div id="alertMessage" class="alert hidden"><span id="alertMessageText" class="alert__text"></span></div>
 		<div id="tweetItems" class="listPage">
 			<h1>Simple Twitter</h1>
 			<div id="navigationButtons">
-				<button class="addTweet">Add tweet</button>
+				<button id="addTweet">Add tweet</button>
 			</div>
 			<ul id="list"></ul>
 		</div>
@@ -24,6 +23,5 @@
 			</div>
 		</div>
 	</div>
-	<script src="./app.js"></script>
 </body>
 </html>

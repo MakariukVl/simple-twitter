@@ -1,0 +1,7 @@
+@mixin alignCenter {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  max-width: 320px;
+}
