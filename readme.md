@@ -3,6 +3,6 @@
 You can use this CMD/SHELL commands in project folder:
 * **AFTER CLONING**:  
   **yarn install** - install all dependencies
-* **DEVELOPMENT**:
-  **yarn build** - create bundle of production code in *./dist* folder
+* **DEVELOPMENT**:\
+  **yarn build** - create bundle of production code in *./dist* folder\
   **yarn start** - running dev server over *port:8080* in *./dist* folder
